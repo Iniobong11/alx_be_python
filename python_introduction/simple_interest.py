@@ -1,12 +1,9 @@
-# basic_operations.py
+# simple_interest.py
 
-number1 = 10
-number2 = 5
+principal = 1000
+rate = 0.05
+time = 3
 
-addition = number1 + number2
-subtraction = number1 - number2
-multiplication = number1 * number2
+interest = principal * rate * time
 
-print(f"Addition of {number1} and {number2} is {addition}")
-print(f"Subtraction of {number1} and {number2} is {subtraction}")
-print(f"Multiplication of {number1} and {number2} is {multiplication}")
+print("The simple interest is:", interest)
