@@ -1,4 +1,4 @@
-@"
+# @"
 number1 = 10
 number2 = 5
 
@@ -9,4 +9,4 @@ multiplication = number1 * number2
 print(f"Addition of {number1} and {number2} is {addition}")
 print(f"Subtraction of {number1} and {number2} is {subtraction}")
 print(f"Multiplication of {number1} and {number2} is {multiplication}")
-"@ | Out-File -Encoding utf8 basic_operations.py
+# "@ | Out-File -Encoding utf8 basic_operations.py
